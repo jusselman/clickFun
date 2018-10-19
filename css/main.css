@@ -1,0 +1,76 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.blackBoard  img {
+  /* height: 500px;
+  width: 500px; */
+  top: 0;
+  left: 0;
+  position: absolute;
+  /* background-image: url("../img/mirror.jpg"); */
+}
+
+h1.title {
+  text-align: center;
+  /* top: 25%; */
+  height: 550px;
+  color: black;
+}
+
+ul.buttons {
+  width: 10%;
+  margin: 0 auto;
+  display: block;
+  list-style: none;
+  /* margin-top: 500px; */
+  top: 25%;
+  left: 16%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+
+li {
+  display: block;
+}
+
+button.effects {
+  height: 30px;
+  width: 90px;
+  background-color: grey;
+  border-radius: 10%;
+  color: white;
+}
+
+
+#display1 {
+    opacity: 0;
+}
+
+#display2 {
+    opacity: 1;
+}
+
+#display3 {
+    font-size: 16px;
+}
+
+p.textDisplay {
+  position: relative;
+  text-align: center;
+}
+
+ul.texts {
+  width: 10%;
+  margin: 0 auto;
+  display: block;
+  list-style: none;
+  /* margin-top: 500px; */
+  top: 24%;
+  left: 22%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  /* overflow: hidden; */
+}
